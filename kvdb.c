@@ -4,6 +4,8 @@
  * Based on KISSDB by Adam Ierymenko <adam.ierymenko@zerotier.com>
  * KVDB is in the public domain and is distributed with NO WARRANTY.
  *
+ * http://creativecommons.org/publicdomain/zero/1.0/
+ *
  */
 
 /* Note: big-endian systems will need changes to implement byte swapping
