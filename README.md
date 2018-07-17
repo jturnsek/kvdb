@@ -9,7 +9,7 @@ something that acts like one.
 It stores keys and values of fixed length in a stupid-simple file format
 based on fixed-size hash tables. If a hash collision occurrs, a new "page"
 of hash table is appended to the database. The format is append-only.
-There is no delete. Puts that replace an existing value, however, will not
+Puts that replace an existing value, however, will not
 grow the file as they will overwrite the existing entry.
 
 Hash table size is a space/speed trade-off parameter. Larger hash tables
